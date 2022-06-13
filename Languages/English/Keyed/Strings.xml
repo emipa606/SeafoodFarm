@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Sfarm.placeonocean>Cannot place on {0}, must place on ocean tile</Sfarm.placeonocean>
+  <Sfarm.nextspawn>Next harvest in: {0}</Sfarm.nextspawn>
+  <Sfarm.affected>
+{0} nearby, harvest increased by 15%</Sfarm.affected>
+  <Sfarm.spawnnow>DEV: Spawn now</Sfarm.spawnnow>
+  <Sfarm.wrongconfig>{0} has {1} spawningThingDefs and {2} spawnAmounts defined, the lists need to be of the same length.</Sfarm.wrongconfig>
+</LanguageData>

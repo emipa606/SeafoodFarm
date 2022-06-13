@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Seafood Farm</name>
+  <packageId>Mlie.SeafoodFarm</packageId>
+  <author>Mlie</author>
+  <url>https://github.com/emipa606/SeafoodFarm</url>
+  <supportedVersions>
+    <li>1.3</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>Infinite.Scavenging</packageId>
+      <displayName>Neolithic Scavenging</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2544523612</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>Infinite.Scavenging</li>
+  </loadAfter>
+  <description>[img]https://i.imgur.com/buuPQel.png[/img]
+  
+This is made as an addon for the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2544523612]Neolithic Scavenging[/url] mod.
+Adds vertical ocean farms that spawn Kelp, Seaweed, Mussels and Oysters over time.
+Can be placed in any ocean tile, spawns resources every seven days.
+
+The yield can be increased by being placed near fish-nets/traps/pier from these mods:
+
+[list]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2594468074]Fish Traps[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=758810805]FishIndustry[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2056631665]【ZP】Rice cultivating civilization[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2569802700]Fishing Nets[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2383686530][RF] Fishing-ReWork[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2594468074]Fish Traps[/url]
+[/list]
+
+or by being near a sewage outlet from:
+[list]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=836308268]Dubs Bad Hygiene[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2458182631]Ancient Rim - SPQRim[/url]
+[/list]
+
+Idea and graphics by HydromancerX
+Kelp and Seaweed art used with permission of Draegon
+
+[table]
+	[tr]
+		[td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
+		[td][url=https://github.com/emipa606/SeafoodFarm][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+    [/tr]
+    [tr]
+        [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
+        [td][img]https://i.imgur.com/Be8E2qJ.png[/img][/td]
+    [/tr]
+[/table]
+
+[img]https://i.imgur.com/O0IIlYj.png[/img]
+Since modding is just a hobby for me I expect no donations to keep modding. If you still want to show your support you can gift me anything from my [url=https://store.steampowered.com/wishlist/id/Mlie]Wishlist[/url] or buy me a cup of tea.
+
+[url=https://ko-fi.com/G2G55DDYD][img]https://i.imgur.com/Utx6OIH.png[/img][/url]
+
+[img]https://i.imgur.com/PwoNOj4.png[/img]
+[list]
+[*] See if the the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] and command Ctrl+F12
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[/list]
+</description>
+</ModMetaData>
