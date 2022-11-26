@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef Name="SeafoodFarmBase" ParentName="BuildingBase" Abstract="True">
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <blockWind>false</blockWind>
+    <scatterableOnMapGen>false</scatterableOnMapGen>
+    <blockLight>false</blockLight>
+    <canOverlapZones>false</canOverlapZones>
+    <designatorDropdown>SeafoodFarms</designatorDropdown>
+    <designationCategory>Production</designationCategory>
+    <terrainAffordanceNeeded Inherit="False" />
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>1000</WorkToBuild>
+      <Flammability>1.0</Flammability>
+      <Beauty>-1</Beauty>
+      <Mass>10</Mass>
+      <MarketValue>40</MarketValue>
+    </statBases>
+    <tickerType>Rare</tickerType>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsProduction</li>
+    </thingCategories>
+    <size>(2,2)</size>
+    <pathCost>40</pathCost>
+    <rotatable>false</rotatable>
+    <stuffCategories>
+      <li>Woody</li>
+    </stuffCategories>
+    <costStuffCount>45</costStuffCount>
+    <placeWorkers>
+      <li>SeafoodFarm.PlaceWorker_OnOcean</li>
+    </placeWorkers>
+    <constructionSkillPrerequisite>2</constructionSkillPrerequisite>
+    <surfaceType>Item</surfaceType>
+  </ThingDef>
+  <ThingDef ParentName="SeafoodFarmBase">
+    <defName>SeafoodFarmKelp</defName>
+    <label>Kelp Farm</label>
+    <description>A simple vertical ocean farm, spawning Kelp, Mussels and Oysters over time. Can only be built in ocean water.</description>
+    <graphicData>
+      <texPath>SeafoodFarmKelp</texPath>
+    </graphicData>
+    <comps>
+      <li Class="SeafoodFarm.SeafoodFarmCompProperties">
+        <compClass>SeafoodFarm.SeafoodFarmComp</compClass>
+        <spawningThingDefs>
+          <li>SC_Kelp</li>
+          <li>SC_Mussel</li>
+          <li>SC_Oyster</li>
+        </spawningThingDefs>
+        <spawnAmounts>
+          <li>40</li>
+          <li>20</li>
+          <li>20</li>
+        </spawnAmounts>
+        <spawnDays>7</spawnDays>
+        <affectedByDefName>
+          <li>GTF_FishingNetBasic</li>
+          <li>GTF_FishingNetComplex</li>
+          <li>GTF_FishingNetAdvanced</li>
+          <li>GTF_FishingNetIce</li>
+          <li>WFFT_FishTrap</li>
+          <li>WFFT_FishNet</li>
+          <li>FishingPier</li>
+          <li>ZP_AquacultureNet</li>
+          <li>ZP_AquacultureNet_Large</li>
+          <li>SewageOutlet</li>
+          <li>Cloaca</li>
+          <li>ShellfishTrap</li>
+        </affectedByDefName>
+        <affectRange>5</affectRange>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="SeafoodFarmBase">
+    <defName>SeafoodFarmSeaweed</defName>
+    <label>Seaweed Farm</label>
+    <description>A simple vertical ocean farm, spawning Seaweed, Mussels and Oysters over time. Can only be built in ocean water.</description>
+    <graphicData>
+      <texPath>SeafoodFarmSeaweed</texPath>
+    </graphicData>
+    <comps>
+      <li Class="SeafoodFarm.SeafoodFarmCompProperties">
+        <compClass>SeafoodFarm.SeafoodFarmComp</compClass>
+        <spawningThingDefs>
+          <li>SC_Seaweed</li>
+          <li>SC_Mussel</li>
+          <li>SC_Oyster</li>
+        </spawningThingDefs>
+        <spawnAmounts>
+          <li>40</li>
+          <li>20</li>
+          <li>20</li>
+        </spawnAmounts>
+        <spawnDays>7</spawnDays>
+        <affectedByDefName>
+          <li>GTF_FishingNetBasic</li>
+          <li>GTF_FishingNetComplex</li>
+          <li>GTF_FishingNetAdvanced</li>
+          <li>GTF_FishingNetIce</li>
+          <li>WFFT_FishTrap</li>
+          <li>WFFT_FishNet</li>
+          <li>FishingPier</li>
+          <li>ZP_AquacultureNet</li>
+          <li>ZP_AquacultureNet_Large</li>
+          <li>SewageOutlet</li>
+          <li>Cloaca</li>
+          <li>ShellfishTrap</li>
+        </affectedByDefName>
+        <affectRange>5</affectRange>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

@@ -6,16 +6,17 @@
   <url>https://github.com/emipa606/SeafoodFarm</url>
   <supportedVersions>
     <li>1.3</li>
+    <li>1.4</li>
   </supportedVersions>
   <modDependencies>
     <li>
-      <packageId>Infinite.Scavenging</packageId>
+      <packageId>Mlie.NeolithicScavenging</packageId>
       <displayName>Neolithic Scavenging</displayName>
-      <steamWorkshopUrl>steam://url/CommunityFilePage/2544523612</steamWorkshopUrl>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2893843175</steamWorkshopUrl>
     </li>
   </modDependencies>
   <loadAfter>
-    <li>Infinite.Scavenging</li>
+    <li>Mlie.NeolithicScavenging</li>
   </loadAfter>
   <description>[img]https://i.imgur.com/buuPQel.png[/img]
   
@@ -31,7 +32,6 @@ The yield can be increased by being placed near fish-nets/traps/pier from these 
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2056631665]【ZP】Rice cultivating civilization[/url]
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2569802700]Fishing Nets[/url]
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2383686530][RF] Fishing-ReWork[/url]
-[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2594468074]Fish Traps[/url]
 [/list]
 
 or by being near a sewage outlet from:
@@ -40,7 +40,7 @@ or by being near a sewage outlet from:
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2458182631]Ancient Rim - SPQRim[/url]
 [/list]
 
-Idea and graphics by HydromancerX
+Idea and graphics by Hydromancerx
 Kelp and Seaweed art used with permission of Draegon
 
 [table]

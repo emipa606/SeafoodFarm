@@ -16,7 +16,6 @@ The yield can be increased by being placed near fish-nets/traps/pier from these 
 - https://steamcommunity.com/sharedfiles/filedetails/?id=2056631665]【ZP】Rice cultivating civilization
 - https://steamcommunity.com/sharedfiles/filedetails/?id=2569802700]Fishing Nets
 - https://steamcommunity.com/sharedfiles/filedetails/?id=2383686530][RF] Fishing-ReWork
-- https://steamcommunity.com/sharedfiles/filedetails/?id=2594468074]Fish Traps
 
 
 
@@ -28,7 +27,7 @@ or by being near a sewage outlet from:
 
 
 
-Idea and graphics by HydromancerX
+Idea and graphics by Hydromancerx
 Kelp and Seaweed art used with permission of Draegon
 
 ![Image](https://i.imgur.com/O0IIlYj.png)

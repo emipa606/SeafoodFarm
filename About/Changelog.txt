@@ -1,4 +1,8 @@
 # Changelog for SeafoodFarm
 
+1.4.1 - Updated for 1.4.
+Used DeepL to update translations for ChineseSimplified, French, German, Russian
+
+
 1.3.0 - First publish
 
