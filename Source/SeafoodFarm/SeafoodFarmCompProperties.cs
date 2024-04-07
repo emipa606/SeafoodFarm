@@ -5,12 +5,12 @@ namespace SeafoodFarm;
 
 public class SeafoodFarmCompProperties : CompProperties
 {
-    public List<string> affectedByDefName = new List<string>();
-    public int affectRange = 5;
-    public List<int> spawnAmounts = new List<int>();
-    public int spawnDays = 1;
+    public readonly List<string> affectedByDefName = [];
+    public readonly int affectRange = 5;
+    public readonly List<int> spawnAmounts = [];
+    public readonly int spawnDays = 1;
 
-    public List<ThingDef> spawningThingDefs = new List<ThingDef>();
+    public readonly List<ThingDef> spawningThingDefs = [];
 
     public SeafoodFarmCompProperties()
     {
