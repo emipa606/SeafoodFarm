@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Kelp Farm -->
+  <SeafoodFarmKelp.label>Kelp Farm</SeafoodFarmKelp.label>
+  <!-- EN: A simple vertical ocean farm, spawning Kelp, Mussels and Oysters over time. Can only be built in ocean water. -->
+  <SeafoodFarmKelp.description>A simple vertical ocean farm, spawning Kelp, Mussels and Oysters over time. Can only be built in ocean water.</SeafoodFarmKelp.description>
+  <!-- EN: Seaweed Farm -->
+  <SeafoodFarmSeaweed.label>Seaweed Farm</SeafoodFarmSeaweed.label>
+  <!-- EN: A simple vertical ocean farm, spawning Seaweed, Mussels and Oysters over time. Can only be built in ocean water. -->
+  <SeafoodFarmSeaweed.description>A simple vertical ocean farm, spawning Seaweed, Mussels and Oysters over time. Can only be built in ocean water.</SeafoodFarmSeaweed.description>
+</LanguageData>

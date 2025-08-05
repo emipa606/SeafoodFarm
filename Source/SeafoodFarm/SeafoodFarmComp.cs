@@ -14,7 +14,6 @@ internal class SeafoodFarmComp : ThingComp
 
     private int SpawnTime => Props.spawnDays * GenDate.TicksPerDay;
 
-
     public override void PostExposeData()
     {
         Scribe_Values.Look(ref currentTicks, "currentTicks");

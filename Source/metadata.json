@@ -2,5 +2,15 @@
   "Continued": false,
   "CanAdd": "0",
   "CanRemove": "2",
-  "PreviewVersion": "1.5"
+  "PreviewVersion": "1.6",
+  "Patches": false,
+  "Defs": true,
+  "Assemblies": true,
+  "LinesOfCode": 5940,
+  "LinesOfXML": 4409,
+  "CodeBaseSize": 64,
+  "LastXmlCleaning": "2025-08-05T22:02:28.257036+02:00",
+  "SocialImageSet": true,
+  "FundingSet": true,
+  "SearchTags": " vertical farming"
 }

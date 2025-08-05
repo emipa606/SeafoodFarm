@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <Sfarm.placeonocean>Cannot place on {0}, must place on ocean tile</Sfarm.placeonocean>
   <Sfarm.nextspawn>Next harvest in: {0}</Sfarm.nextspawn>
